@@ -1,0 +1,32 @@
+Talk:
+
+motivation:
+
+jealousy:
+sleep well at night
+
+in short - «dont worry, be happy»
+
+greed:
+
+
+laziness:
+
+
+planning:
+
+it might be obvious, but want to stress that this is one of the most important things you do if you do something like this
+
+- refactor Java codebase to favor immutability and static functions
+
+
+
+
+- mechanically rewrite Java code to Scala
+<3 intellij
+
+final 
+- port Java collections usage to Scala collections, introduce Option when possible
+- restore sanity by replacing Hibernate with Scalaquery/Slick
+- rewire with cake pattern instead of Spring
+- regain control over HTTP by replacing Spring MVC with Unfiltered
