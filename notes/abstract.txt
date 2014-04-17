@@ -1,0 +1,20 @@
+
+
+---
+
+How we ported our application from Java to Scala
+
+Abstract:
+
+In this talk I will tell the story about how we came to port our main application to Scala.
+
+Initial focus will be on motivation for the team and for myself. Then we have a look at how my team tested the waters first, and how that testing developed into a multiphased porting strategy:
+
+- refactor Java codebase to favor immutability and static functions
+- mechanically rewrite Java code to Scala
+- port Java collections usage to Scala collections, introduce Option when possible
+- restore sanity by replacing Hibernate with Scalaquery/Slick
+- rewire with cake pattern instead of Spring
+- regain control over HTTP by replacing Spring MVC with Unfiltered
+
+By sharing some experience for each of these phases, I hope this talk can be useful for anyone considering doing the same.

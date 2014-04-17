@@ -1,0 +1,34 @@
+Penger.no/boliglån
+
+
+
+
+```
+commit 8cbe373cf6f9515aa944060882864d126ad3bb6b
+Author: oyviberg <oyvind.raddum.berg@finn.no>
+Date:   Mon Jun 3 13:49:40 2013 +0200
+
+    AZ-161: RIP Hibernate **<=|:-D. RIP spring in service layer. RIP spring as main app wiring. Hello parallelExecution in Test, hello Cake, hello moving admin
+ ```
+
+
+
+
+
+
+
+
+
+
+
+motivasjon
+problemer med gammel platform
+valg av verktøy/toolkits
+utfordringer underveis
+tidsbruk
+prosjektlivssyklus
+maven/sbt?
+hvordan vi erstattet spring
+hvordan vi erstattet hibernate
+hvordan vi erstattet spring mvc
+
