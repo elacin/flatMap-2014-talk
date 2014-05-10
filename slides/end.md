@@ -34,9 +34,3 @@ june 2012 - april 2014
 - 👍 developer happiness
 - 👍 peace of mind/trust in code
 - 👍 similar technology between projects
-
----
-
----
-
-http://www.scandevconf.se/db/ScanDev2013_final_Urs_Peter.pptx
