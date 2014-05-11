@@ -19,7 +19,9 @@ val javaMap: util.Map[String, Int] =
 
 ```
 
----
-
-### checked exceptions => Either[A, B] or Try[T]
-rewriting exposes inconsistencies
+<aside class="notes">
+<br/>easier than expected
+<br/>had no problems with introducing the odd Any when neccessary
+<br/>on purpose didnt look into performance, assumed the worst, not neccessary
+<br/>kept prefixes for coexisting
+</aside>

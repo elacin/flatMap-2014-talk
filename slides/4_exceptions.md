@@ -1,18 +1,17 @@
 ### checked exceptions => Either[A, B] or Try[T]
-rewriting exposes inconsistencies
+- much effort spent on this
+- rewriting exposes inconsistencies
 
 ---
 
 ###good opportunity to introduce semantically richer «Left-types»:
-nudges you in the direction of moving for example logging upstack,
-out of the business logic
+move logging, error handling, *etc* out of business logic
 ```java
 public Provider providerForApp(Application a,
                                List<Provider> ps)
                                throws Exception1, Exception2
 ```
 ```scala
-def providerForApp(a: Application,
-                   ps: Seq[Provider]
-                   ): Either[Seq[Refusal], Provider]
+def providerForApp(a:  Application,
+                   ps: Seq[Provider]): Either[Seq[Refusal], Provider]
 ```

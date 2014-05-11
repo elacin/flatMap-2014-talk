@@ -7,8 +7,29 @@
 - composition over inheritance
 - value classes
 
+<aside class="notes">
+mostly java best practices now anyway
+<br>not organized, just general maintenance direction
+<br>we relied on Collections.unmodifiableList
+</aside>
+
+
 ---
 
-### java.util.Optional&lt;T&gt;
-compile-time guarantees and easy porting, not elegance
+### Optional semantincs
+- compile-time guarantees and easy porting, not elegance
+- today: would have used java.util.Optional&lt;T&gt;
+
+```java
+
+public class MyOption<T> implements Iterable<T> {
+    private final T value;
+
+    public static <G> MyOption<G> option(final G value) {
+        return new MyOption<G>(value);
+    }
+
+    ...
+}
+```
 
