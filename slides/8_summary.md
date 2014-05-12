@@ -1,10 +1,3 @@
-###Business people
-
-- might not be as enthusiastic
-- sell them something else!
-
----
-
 ###Porting timeline
 <table align="center">
 <tr><td>summer 2012   </td><td> Started refactoring Java code                 </td></tr>

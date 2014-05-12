@@ -1,5 +1,5 @@
+###Penger.no - Early Timeline
 
-###Early Timeline Penger.no
 
 <table align="center">
 <tr><td> **autumn 2010 **  </td><td> start of mortgage
@@ -7,11 +7,22 @@ project (*in Java*)        </td></tr>
 <tr><td> **autumn 2011 **  </td><td> start of insurance project (*in Scala*)      </td></tr>
 </table>
 
+<aside class="notes">
+Penger.no is a site for helping users take control of their private finances through comparing offers from banks and insurance companies, somewhat like moneysupermarket.com
+
+<br>history lesson, will keep as short as possible, will try to keep a timeline here, summarized at the end
+</aside>
+
 ---
 
-###Situation early 2012...
+###Java project, Situation early 2012...
 - code base growing quickly
 - unhappy with technology
+
+<aside class="notes">
+will give a short overview, technical reasons why we wanted to do something
+<br>two main observations
+</aside>
 
 ---
 
@@ -20,8 +31,10 @@ initial 18 months of project (jan 2011-june 2012)
 <img src="images/graph_early.png"/>
 
 <aside class="notes">
-projected LOC now ~60k+
+<br/>two main things: small project, and size increasing
+<br/>projected LOC now ~60k+
 <br/>never take functionality away
+<br/>scala code here are two internal apps
 </aside>
 
 ---
@@ -34,31 +47,41 @@ projected LOC now ~60k+
 - debugging
 
 <aside class="notes">
-wont complain too much, should be well known
-<br/abstractions -> hibernate
-<br/>understand   -> opaque, black box, no lexical scope, cglib rewrites code, annotations, generics
+wont complain too much, should be well known. java culture
+<br/>abstractions -> hibernate spent 300k lines abstracting away sql, still need to know sql
+<br>often need to dig deep to find correct method to override
+<br/>understand   -> opaque, black box, no lexical scope, cglib rewrites code, generics, threadlocals
+<br>runtime failures -> annotations
+<br/>might not be a perfect developer, so this happens
 <br/>story: spring wired session scope to app scope
 <br/>story: diabolical mind - execution flow by exceptions (spring security)
-<br/>might not be perfect developers, so this happens
+<br/>
+<br/>these are good reasons for adopting scala...
 </aside>
 
 ---
 
 ###Had tested the scala waters
+- scala expertise within team
 - insurance app
 - backoffice application already rewritten
-- expertise within team
+
 <aside class="notes">
-first task was rewriting backoffice app
+i come in december 2012, hired partly for scala
+<br/>first task was rewriting backoffice app
 <br/>of course there was also...this other project
 <br/>other team had all the fun
 <br/>unbearable lunch
+<br/>that leads me to the main reason for the rewrite
 </aside>
 
 ---
 
 ###Envy
-- prime motivating factor
+
+<aside class="notes">
+prime motivating factor
+</aside>
 
 ---
 

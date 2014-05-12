@@ -5,7 +5,6 @@
 ---
 
 ###good opportunity to introduce semantically richer «Left-types»:
-move logging, error handling, *etc* out of business logic
 ```java
 public Provider providerForApp(Application a,
                                List<Provider> ps)
@@ -15,3 +14,7 @@ public Provider providerForApp(Application a,
 def providerForApp(a:  Application,
                    ps: Seq[Provider]): Either[Seq[Refusal], Provider]
 ```
+
+<aside class="notes">
+move logging, error handling, *etc* out of business logic
+</aside>

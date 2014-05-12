@@ -16,9 +16,11 @@ the part i was most passionate about
 
 <aside class="notes">
 felt we might have started to use it a bit too early
+<br>somewhat lucky, because we had relatively easy queries
 <br>only opaque/indirect part of our stack - sql queries generated
 <br>slick 1 fixed a lot of the problems
 <br>slick 2 might have fixed more, havent had time to look into it
+
 </aside>
 
 ---

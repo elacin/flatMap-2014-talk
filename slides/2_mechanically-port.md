@@ -64,3 +64,8 @@ case class Foo[T](param: T)
 <br/>problems with: generics, multiple constructors, finality etc
 <br/>doesnt matter! :)
 </aside>
+
+---
+
+###looks like this
+<img src="images/convert.png"/>
