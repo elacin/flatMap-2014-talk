@@ -1,7 +1,7 @@
 ###Spring MVC/JSP
 
 - by far biggest challenge
-- unfiltered, argonaut, scalaz
+- unfiltered, argonaut
 - wrote a toolkit for form handling
 - wrote minimalistic templating engine
 - two months of dedicated time
