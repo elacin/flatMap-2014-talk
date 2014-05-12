@@ -1,5 +1,5 @@
 ###Penger.no - Early Timeline
-
+<br/>
 <table align="center">
 <tr><td> **autumn 2010 **  </td><td> start of mortgage
 project (*in Java*)        </td></tr>
@@ -7,8 +7,8 @@ project (*in Java*)        </td></tr>
 </table>
 
 <aside class="notes">
-Penger.no is a site for helping users take control of their private finances through comparing offers from banks and insurance companies, somewhat like moneysupermarket.com
-
+Penger.no is a site for helping users take control of their private finances, primarily through comparing offers from banks and insurance companies. think moneysupermarket.com
+<br/>For the norwegians here, penger.no is owned by finn.no
 <br/>history lesson, will keep as short as possible, will try to keep a timeline here, summarized at the end
 </aside>
 
@@ -51,9 +51,10 @@ initial 18 months of project (jan 2011-june 2012)
 <br/>some things java culture some things technical, Framework hell
 <br/>abstractions -> hibernate has spent 300k lines abstracting away sql, still need to know sql
 <br/>often need to dig deep to find correct method to override
-<br/>story: diabolical mind - execution flow by exceptions (spring mvc)
+<br/>story: twisted mind - execution flow by exceptions (spring mvc)
 <br/>
-<br/>understand -> black box, (spring, threadlocals) evade lexical scoping, cglib rewrites code before deploy
+<br/>understand -> black box, (spring, threadlocals) evade lexical scoping, cglib rewrites bytecode deploy-time
+<br/>
 <br/>runtime failures -> reflection, annotations
 <br/>might not be a perfect developer, so this happens
 <br/>story: spring wired session scope to app scope
@@ -63,11 +64,11 @@ initial 18 months of project (jan 2011-june 2012)
 
 ---
 
-###Had tested the scala waters
+###Situation
 - scala expertise within team
-- insurance app
-- backoffice application already rewritten
-
+- insurance app originally scala
+- backoffice app already rewritten
+- mortgage app very important for us
 <aside class="notes">
 i come in december 2012, hired partly for scala
 <br/>first task was rewriting backoffice app
@@ -82,15 +83,15 @@ i come in december 2012, hired partly for scala
 ###Envy
 
 <aside class="notes">
-prime motivating factor
+primary motivating factor
 </aside>
 
 ---
 
 ###Wanted to optimize for:
-- developer happiness
 - peace of mind/trust in code
 - similar technology between projects
+- developer happiness
 
 ---
 
