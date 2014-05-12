@@ -53,7 +53,7 @@ initial 18 months of project (jan 2011-june 2012)
 <br/>often need to dig deep to find correct method to override
 <br/>story: twisted mind - execution flow by exceptions (spring mvc)
 <br/>
-<br/>understand -> black box, (spring, threadlocals) evade lexical scoping, cglib rewrites bytecode deploy-time
+<br/>understand -> i want to understand my dependencies! death by layers. (spring, threadlocals) evade lexical scoping, cglib rewrites bytecode deploy-time
 <br/>
 <br/>runtime failures -> reflection, annotations
 <br/>might not be a perfect developer, so this happens

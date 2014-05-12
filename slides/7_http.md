@@ -11,8 +11,8 @@
 ###Product owners
 
 - might not be as enthusiastic
-- sell them something else!
+- sell them something else
 
 <aside class="notes">
-<br/>we sold super quick round trip for changing forms, new/shared design for all projects, happy developers
+<br/>we sold super quick round trip for changing forms, new/shared design among projects, happy developers
 </aside>
