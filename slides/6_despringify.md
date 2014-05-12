@@ -8,7 +8,7 @@
 - took a few dependencies, like commons-fileupload, and commons-email
 
 <aside class="notes">
-<br>...and almost nothing we need
+<br/>...and almost nothing we need
 </aside>
 
 ---
@@ -19,7 +19,7 @@
  - *ugh*...
 
 <aside class="notes">
-<br>this gave us a few small headaches
+<br/>this gave us a few small headaches
 </aside>
 
 ---
@@ -40,5 +40,5 @@ class SpringBeans {
 }
 ```
 <aside class="notes">
-<br>some process to get there, started by wiring up scala components as spring beans
+<br/>some process to get there, started by wiring up scala components as spring beans
 </aside>

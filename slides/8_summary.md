@@ -6,7 +6,7 @@
 <tr><td>april 2013    </td><td> <strike>javax.validation</strike>             </td></tr>
 <tr><td>june 2013     </td><td> <strike>Hibernate</strike>                    </td></tr>
 <tr><td>june 2013     </td><td> <strike>Spring in service layer</strike>      </td></tr>
-<tr><td>january 2014  </td><td> <strike>Spring MVC</strike>                   </td></tr>
+<tr><td>january 2014  </td><td> <strike>Spring MVC/JSP</strike>               </td></tr>
 </table>
 <br/>
 <br/>

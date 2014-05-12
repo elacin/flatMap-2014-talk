@@ -9,8 +9,8 @@
 
 <aside class="notes">
 mostly java best practices now anyway
-<br>not organized, just general maintenance direction
-<br>we relied on Collections.unmodifiableList
+<br/>not organized, just general maintenance direction
+<br/>we relied on Collections.unmodifiableList
 </aside>
 
 

@@ -1,6 +1,5 @@
 ###Penger.no - Early Timeline
 
-
 <table align="center">
 <tr><td> **autumn 2010 **  </td><td> start of mortgage
 project (*in Java*)        </td></tr>
@@ -10,7 +9,7 @@ project (*in Java*)        </td></tr>
 <aside class="notes">
 Penger.no is a site for helping users take control of their private finances through comparing offers from banks and insurance companies, somewhat like moneysupermarket.com
 
-<br>history lesson, will keep as short as possible, will try to keep a timeline here, summarized at the end
+<br/>history lesson, will keep as short as possible, will try to keep a timeline here, summarized at the end
 </aside>
 
 ---
@@ -21,7 +20,7 @@ Penger.no is a site for helping users take control of their private finances thr
 
 <aside class="notes">
 will give a short overview, technical reasons why we wanted to do something
-<br>two main observations
+<br/>two main observations
 </aside>
 
 ---
@@ -49,9 +48,9 @@ initial 18 months of project (jan 2011-june 2012)
 <aside class="notes">
 wont complain too much, should be well known. java culture
 <br/>abstractions -> hibernate spent 300k lines abstracting away sql, still need to know sql
-<br>often need to dig deep to find correct method to override
+<br/>often need to dig deep to find correct method to override
 <br/>understand   -> opaque, black box, no lexical scope, cglib rewrites code, generics, threadlocals
-<br>runtime failures -> annotations
+<br/>runtime failures -> annotations
 <br/>might not be a perfect developer, so this happens
 <br/>story: spring wired session scope to app scope
 <br/>story: diabolical mind - execution flow by exceptions (spring security)
@@ -103,10 +102,11 @@ prime motivating factor
 <tr><td> </td><td>checked exceptions </td><td> => Either/Try       </td></tr>
 <tr><td>5</td><td>Hibernate          </td><td> => Slick            </td></tr>
 <tr><td></td><td> Spring             </td><td> => cake pattern     </td></tr>
-<tr><td>6</td><td>Spring MVC         </td><td> => Unfiltered ++    </td></tr>
+<tr><td>6</td><td>Spring MVC/JSP     </td><td> => Unfiltered ++    </td></tr>
 </table>
 
 <aside class="notes">
 in this order
 <br/>of course, some of them happened simultaneously
+<br/>on a touch a file-basis
 </aside>
