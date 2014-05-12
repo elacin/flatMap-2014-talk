@@ -15,7 +15,7 @@ mostly java best practices now anyway
 
 ---
 
-### Optional semantincs
+### Optional semantics
 - compile-time guarantees and easy porting, not elegance
 - today: would have used java.util.Optional&lt;T&gt;
 
