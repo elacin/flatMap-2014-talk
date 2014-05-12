@@ -2,21 +2,20 @@
 <aside class="notes">
 the part i was most passionate about.
 <br/>also where we had the most discussions
+<br/>also considered, believe it or not, spring jdbc, or writing wrapper around plain jdbc
 </aside>
 
 ---
 
 ###scalaquery was somewhat immature
  - difficult to figure out DSL
- - little/bad documentation
  - encountered a few weird bugs in SQL generation
  - technical limitations leaked over to domain types
- - considered a gamble
  - stuck with it because of promise and because it brought sanity.
  - slick 1 was a relief
 
 <aside class="notes">
-felt we might have started to use it a bit too early
+felt we might have started to use it a bit too early, did consider it a gamble
 <br/>somewhat lucky, because we had relatively easy queries
 <br/>only opaque/indirect part of our stack - sql queries generated
 <br/>slick 2 might have fixed more, havent had time to look into it

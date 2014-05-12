@@ -1,7 +1,6 @@
 
 ## Refactor Java codebase
 - limit/contain mutability
-- embrace java 8 stream api or guava
 - avoid multiple returns
 - short, static functions
 - composition over inheritance
@@ -10,7 +9,7 @@
 <aside class="notes">
 mostly java best practices now anyway
 <br/>not organized, just general maintenance direction
-<br/>we relied on Collections.unmodifiableList
+<br/>collections: now would embrace java 8 stream api or guava, we relied on Collections.unmodifiableList
 </aside>
 
 

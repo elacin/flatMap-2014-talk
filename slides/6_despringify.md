@@ -5,7 +5,7 @@
 ###Replacement functionality
 - spring comes with... everything
 - most functionality we need exists in scala stdlib, or is easy to write yourself
-- took a few dependencies, like commons-fileupload, and commons-email
+- took a few other dependencies, like commons-fileupload, and commons-email
 
 <aside class="notes">
 <br/>...and almost nothing we need

@@ -19,8 +19,9 @@ Penger.no is a site for helping users take control of their private finances thr
 - unhappy with technology
 
 <aside class="notes">
-will give a short overview, technical reasons why we wanted to do something
+<br/>will give a short overview, technical reasons why we wanted to do something
 <br/>two main observations
+<br/>unhappy: wont complain too much, should be well known.
 </aside>
 
 ---
@@ -31,6 +32,7 @@ initial 18 months of project (jan 2011-june 2012)
 
 <aside class="notes">
 <br/>two main things: small project, and size increasing
+<br/>obviously not a perfect metric, but says something
 <br/>projected LOC now ~60k+
 <br/>never take functionality away
 <br/>scala code here are two internal apps
@@ -39,21 +41,22 @@ initial 18 months of project (jan 2011-june 2012)
 ---
 
 ###Unhappy with technology
-####Framework hell:
+
 - limited/leaky abstractions
 - want to understand whats going on
 - runtime failures
 - debugging
 
 <aside class="notes">
-wont complain too much, should be well known. java culture
-<br/>abstractions -> hibernate spent 300k lines abstracting away sql, still need to know sql
+<br/>some things java culture some things technical, Framework hell
+<br/>abstractions -> hibernate has spent 300k lines abstracting away sql, still need to know sql
 <br/>often need to dig deep to find correct method to override
-<br/>understand   -> opaque, black box, no lexical scope, cglib rewrites code, generics, threadlocals
-<br/>runtime failures -> annotations
+<br/>story: diabolical mind - execution flow by exceptions (spring mvc)
+<br/>
+<br/>understand -> black box, (spring, threadlocals) evade lexical scoping, cglib rewrites code before deploy
+<br/>runtime failures -> reflection, annotations
 <br/>might not be a perfect developer, so this happens
 <br/>story: spring wired session scope to app scope
-<br/>story: diabolical mind - execution flow by exceptions (spring security)
 <br/>
 <br/>these are good reasons for adopting scala...
 </aside>
@@ -71,7 +74,7 @@ i come in december 2012, hired partly for scala
 <br/>of course there was also...this other project
 <br/>other team had all the fun
 <br/>unbearable lunch
-<br/>that leads me to the main reason for the rewrite
+<br/>that leads me to the main reason for the rewrite...
 </aside>
 
 ---

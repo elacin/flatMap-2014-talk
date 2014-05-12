@@ -1,10 +1,10 @@
 ### checked exceptions => Either[A, B] or Try[T]
-- much effort spent on this
 - rewriting exposes inconsistencies
-- often far reaching
+- often far reaching changes
 
 <aside class="notes">
-ill admit it. i *preferred* checked exceptions, was initially upset with scala
+confession. i *preferred* checked exceptions, was initially upset with scala
+<br/>much effort spent on this
 <br/>inconsistencies within a function, where parts of it would effectively have type (T or Exception)
 <br/>need to homogenize parts
 <br/>often far reaching consequences, Eithers will typically show up in far more places than does throws exception

@@ -11,9 +11,9 @@
 - keep all inter-module APIs «Java-friendly» while you can
 
 <aside class="notes">
-got this one from others' experience
-java friendly is mostly easy, frameworks you use might mandate java collections
-sbt supports compile order flag CompileOrder.JavaThenScala
+<br/>got this one from others' experience
+<br/>java friendly is mostly easy, frameworks you use might mandate java collections
+<br/>sbt supports compile order flag CompileOrder.JavaThenScala
 </aside>
 
 
